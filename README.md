@@ -1,4 +1,4 @@
-# T2D-Skin-BulkRNASeq
+# T2D-Skin-BulkRNAseq
 Bulk RNA-seq analysis of human skin tissue comparing Type 2 diabetic and non-diabetic samples using GEO data (GSE144441). Includes QC, DESeq2 differential expression, and functional enrichment highlighting adherens junction disruption in diabetic skin.
 
 ### Objective
@@ -12,7 +12,7 @@ To identify differentially expressed genes and enriched biological pathways asso
   - Type 2 Diabetes: n = 15
   - Non-diabetic Controls: n = 12
   
-#### Analysis Workflow
+### Analysis Workflow
 1. Data acquisition from GEO/SRA
 2. Quality control and preprocessing (FastQC, MultiQC)
 3. Alignment and quantification
@@ -21,15 +21,15 @@ To identify differentially expressed genes and enriched biological pathways asso
 6. Functional enrichment analysis
 
 ### Tools & Software
-- NBI GEO
-- NBI SRA
+- NCBI GEO
+- NCBI SRA
 - SRA Toolkit
 - FastQC & MultiQC
 - STAR (v2.7.1a)
 - Reference Genome & Annotation:
   - Human genome: GRCh38
   - GTF annotations from shared reference dataset
-- featureCounts: gene-level read quantification
+-  Subread: featureCounts
 - R
 - DESeq2
 
